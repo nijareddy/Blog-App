@@ -9,7 +9,9 @@ const app = express();
 app.use(express.json())
 
 app.use(cors({
-  origin: 'https://blog-app-react-pi-blush.vercel.app' // Allow requests from this origin
+  origin: ['https://blog-app-react-pi-blush.vercel.app'],
+  method:['GET','POST','DELETE','PUT'],
+  credentials:true
 }));
 
 const dbpath = path.join(__dirname, 'database.db');
