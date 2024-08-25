@@ -14,7 +14,7 @@ function PostList() {
   useEffect(() => {
     const fetchPosts = async () => {
       const jwtToken = Cookies.get('jwt_token')
-      const apiUrl = 'https://blog-app-api-mu.vercel.app/posts'
+      const apiUrl = 'https://localhost:3004/posts'
       const options = {
         method: 'GET',
         headers:
