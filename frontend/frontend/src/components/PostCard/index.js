@@ -12,7 +12,7 @@ const PostCard = ({ eachItem }) => {
     }
    const handleDelete= async () => {
     const jwtToken = Cookies.get('jwt_token')
-      const apiUrl = `http://localhost:3004/posts/${eachItem.id}`
+      const apiUrl = `https://blog-app-api-mu.vercel.app/posts/${eachItem.id}`
       const options = {
         method: 'DELETE',
         headers:
