@@ -8,14 +8,7 @@ const bcrypt = require('bcrypt')
 const app = express();
 app.use(express.json())
 
-app.use(cors(
-   {
-    origin: 'https://blog-app-react-pi-blush.vercel.app', // Replace with your frontend origin
-    methods: 'GET, POST, PUT, DELETE', // Allowed HTTP methods
-    allowedHeaders: ['Content-Type', 'Authorization','Access-Control-Request-Headers'], // Allowed headers
-     
-}
-));
+app.use(cors());
 
 const dbpath = path.join(__dirname, 'database.db');
 let db
