@@ -24,7 +24,7 @@ function PostForm() {
 
     if (id) {
 
-      response= await fetch(`http://localhost:3004/posts/${id}`, {
+      response= await fetch(`https://blog-app-api-mu.vercel.app/posts/${id}`, {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json', 'authorization': `Bearer ${jwtToken}` },
         body: JSON.stringify(postData)
