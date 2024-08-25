@@ -12,7 +12,8 @@ app.use(cors(
    {
     origin: 'https://blog-app-react-pi-blush.vercel.app', // Replace with your frontend origin
     methods: 'GET, POST, PUT, DELETE', // Allowed HTTP methods
-    allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
+    allowedHeaders: ['Content-Type', 'Authorization','Access-Control-Request-Headers'], // Allowed headers
+     
 }
 ));
 
