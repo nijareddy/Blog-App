@@ -8,8 +8,8 @@ const bcrypt = require('bcrypt')
 const app = express();
 app.use(express.json())
 
-app.use(cors(
-  origin: 'https://blog-app-react-pi-blush.vercel.app'));
+app.use(cors({
+  origin: 'https://blog-app-react-pi-blush.vercel.app'}));
 
 const dbpath = path.join(__dirname, 'database.db');
 let db
