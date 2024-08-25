@@ -1,0 +1,46 @@
+.card-title {
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #000000;
+
+}
+
+.card-content {
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: #343131;
+
+}
+
+.post-item {
+    list-style-type: none;
+    background-color: #9b9b9b0d;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px;
+    margin-bottom:10px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seperator {
+    border: 1px solid #454444;
+    margin: 0px;
+}
+
+span {
+    color: #1138e7;
+}
+.delete-btn{
+    background-color: transparent;
+    border-width:0px;
+    font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.header{
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #ffffff;
+}
+.logout-btn{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color:#ffffff;
+    background-color: #000000;
+    padding:9px 20px;
+    border-width:0px;
+
+}
+.tab-btn{
+    border-width:0px;
+    background-color: transparent;
+    border-bottom: 3px solid #000000;
+    padding:8px 15px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+.tab-cont{
+    display:flex;
+    justify-content: space-between;
+    width:30%;
+}
+.heading{
+    font-size: 15px;
+    font-family: 'New Amsterdam';
+    color:#000000;
+}

@@ -1,0 +1,16 @@
+.post-list{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   min-height:100vh;
+   
+}
+.posts{
+    width:90%;
+    flex-grow: 1;
+   
+}
+.list{
+    margin: 0px;
+    padding:0px;
+}

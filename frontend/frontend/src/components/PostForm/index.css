@@ -1,0 +1,34 @@
+.label-ele{
+    font-size: 15px;
+    font-family:'Roboto' ;
+    color:#000000;
+    font-weight: 600;
+}
+.input-box{
+    padding:10px 15px;
+    margin-bottom:10px;
+}
+.form-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    width:100%;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+   width:50%;
+    
+
+}
+.create-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    margin-top:20px;
+    font-size: 15px;
+}
