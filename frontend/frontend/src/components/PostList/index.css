@@ -14,3 +14,9 @@
     margin: 0px;
     padding:0px;
 }
+.input-search{
+    padding:10px 15px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    width:30%;
+}
